@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, #371d55, #10323a);
+  /* background: linear-gradient(to bottom, #ffffff, #e4faff); */
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+}
+
+.visa-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.top, .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: linear-gradient(225deg, rgb(31, 143, 255), rgb(112, 70, 209));
+  color: white;
+  gap: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: inline-flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.holder {
+  font-size: 13px;
+}
+
+.amount {
+  font-size: 32px;
+}
+
+.card-number {
+  font-size: 29px;
+  display: flex;
+  gap: 1rem;
+}
+
+.validity p:nth-child(2) {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+/* This is styling for the second Product Card */
+
+.product-card {
+  background: rgb(41, 41, 41);
+  padding: 1.5rem;
+  color: white;
+  border-radius: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-flow: wrap column;
+}
+
+.product-image {
+  width: 300px;
+  height: auto;
+}
+
+.product-infos {
+  display: flex;
+  flex-flow: wrap column;
+  gap: .5rem;
+  margin: 1rem 0;
+}
+
+.product-name {
+  font-weight: 400;
+}
+
+.info {
+  display: flex;
+  font-size: .8rem;
+  justify-content: space-between;
+}
+
+.info .property {
+  text-transform: uppercase;
+  color: #dddddd;
+}
+
+.available-colors {
+  display: flex;
+  gap: 1rem;
+}
+
+.color {
+  height: 30px;
+  width: 30px;
+  border: 2px solid rgb(49, 49, 49);
+  border-radius: 50%;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: dodgerblue;
+}
+
+.buy-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.quantity-selector {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.select-button {
+  background: transparent;
+  color: white;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  border: 2px solid rgb(3, 105, 207);
+}
+
+.add-to-cart {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background-color:rgb(112, 70, 209);
+  color: white;
+  font-size: 1rem;
+  align-self: center;
+}
